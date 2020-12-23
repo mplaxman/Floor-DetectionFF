@@ -38,8 +38,6 @@ jupyter-core==4.6.3
 Keras==2.0.8
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
-kiwisolver==1.2.0
-Markdown==3.2.2
 mask-rcnn==2.1
 matplotlib==3.3.2
 nbformat==5.0.7
