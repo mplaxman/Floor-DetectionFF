@@ -38,7 +38,6 @@ jupyter-core==4.6.3
 Keras==2.0.8
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
-mask-rcnn==2.1
 matplotlib==3.3.2
 nbformat==5.0.7
 networkx==2.5
@@ -52,18 +51,6 @@ parso==0.7.1
 Pillow==7.2.0
 prometheus-client==0.8.0
 protobuf==3.13.0
-psycopg2==2.7.5
-ptyprocess==0.6.0
-pyarrow==2.0.0
-pydeck==0.5.0
-PyMySQL==0.10.1
-pyparsing==2.4.7
-python-dateutil==2.8.1
-pytz==2020.1
-PyWavelets==1.1.1
-PyYAML==5.3.1
-pyzmq==19.0.2
-QtPy==1.9.0
 requests==2.24.0
 scikit-image==0.16.2
 scipy==1.5.2
