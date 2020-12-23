@@ -104,26 +104,26 @@ def predictImage(request):
 ############################################################################################################
 
 	def color_splash(image, mask, floor_image=None):
-	    gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
+	    #gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
 	    # Copy color pixels from the original color image where mask is set
-	    if mask.shape[-1] > 0:
+	    #if mask.shape[-1] > 0:
 	    # We're treating all instances as one, so collapse the mask into one layer
-	    	mask = (np.sum(mask, -1, keepdims=True) >= 1)
-	    	splash = np.where(mask, image, gray).astype(np.uint8)
-	    else:
-	    	splash = gray.astype(np.uint8)
-	    return splash
-	    #floor = cv2.imread("./media/floor_img/37021.jpg")
-	    #floor = cv2.resize(floor, image.shape[1::-1])
-	    #floor_image = cv2.cvtColor(floor, cv2.COLOR_BGR2RGB)
+	    	#mask = (np.sum(mask, -1, keepdims=True) >= 1)
+	    	#splash = np.where(mask, image, gray).astype(np.uint8)
+	    #else:
+	    	#splash = gray.astype(np.uint8)
+	    #return splash
+	    floor = cv2.imread("./media/floor_img/37021.jpg")
+	    floor = cv2.resize(floor, image.shape[1::-1])
+	    floor_image = cv2.cvtColor(floor, cv2.COLOR_BGR2RGB)
 	 
 	    
-	    #if mask.shape[-1] > 0:
-	        #mask = (np.sum(mask, -1, keepdims=True) >= 1)
-	        #splash = np.where(mask, floor_image, image).astype(np.uint8)
-	    #else:
-	        #splash = floor_image.astype(np.uint8)
-	    #return splash
+	    if mask.shape[-1] > 0:
+	        mask = (np.sum(mask, -1, keepdims=True) >= 1)
+	        splash = np.where(mask, floor_image, image).astype(np.uint8)
+	    else:
+	        splash = floor_image.astype(np.uint8)
+	    return splash
 
 
 	def to_image(numpy_img):
