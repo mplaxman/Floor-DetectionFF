@@ -1,14 +1,131 @@
-numpy
-scipy
-Pillow
-cython
-matplotlib
-scikit-image
+absl-py==0.10.0
+alabaster==0.7.12
+altair==4.1.0
+argon2-cffi @ file:///tmp/build/80754af9/argon2-cffi_1596828452693/work
+asgiref==3.2.10
+astor==0.8.1
+async-generator==1.10
+attrs @ file:///tmp/build/80754af9/attrs_1600298409949/work
+Babel==2.8.0
+backcall==0.2.0
+base58==2.0.1
+bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
+blinker==1.4
+cachetools==4.2.0
+certifi==2020.6.20
+cffi==1.14.3
+chardet==3.0.4
+click==7.1.2
+cycler==0.10.0
+Cython==0.29.21
+decorator==4.4.2
+defusedxml==0.6.0
+Django==3.1.2
+docutils==0.16
+entrypoints==0.3
+gast==0.4.0
+gitdb==4.0.5
+GitPython==3.1.11
+google-pasta==0.2.0
+grpcio==1.32.0
+h5py==2.10.0
+idna==2.10
+imageio==2.9.0
+imagesize==1.2.0
+imgaug==0.4.0
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+ipykernel @ file:///tmp/build/80754af9/ipykernel_1596206598566/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipyparallel==6.3.0
+ipython @ file:///tmp/build/80754af9/ipython_1598883837425/work
+ipython-genutils==0.2.0
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1601490159889/work
+jedi @ file:///tmp/build/80754af9/jedi_1596490743326/work
+Jinja2==2.11.2
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1594363551272/work
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
+jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1598884538475/work
+jupyter-core==4.6.3
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+Keras==2.0.8
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+kiwisolver==1.2.0
+Markdown==3.2.2
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1594371495811/work
+mask-rcnn==2.1
+matplotlib==3.3.2
+mistune @ file:///tmp/build/80754af9/mistune_1594373098390/work
+nbclient @ file:///tmp/build/80754af9/nbclient_1601059699549/work
+nbconvert @ file:///tmp/build/80754af9/nbconvert_1601914821128/work
+nbformat==5.0.7
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1601499549014/work
+networkx==2.5
+nose==1.3.7
+notebook @ file:///tmp/build/80754af9/notebook_1601501580008/work
+numpy==1.19.2
+opencv-python==4.4.0.44
+packaging==20.4
+pandas==1.1.3
+pandocfilters==1.4.2
+parso==0.7.1
+pexpect @ file:///tmp/build/80754af9/pexpect_1594383317248/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1594384075987/work
+Pillow==7.2.0
+prometheus-client==0.8.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1598885458782/work
+protobuf==3.13.0
+psycopg2==2.7.5
+ptyprocess==0.6.0
+pyarrow==2.0.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pydeck==0.5.0
+Pygments @ file:///tmp/build/80754af9/pygments_1600458456400/work
+PyMySQL==0.10.1
+pyparsing==2.4.7
+pyrsistent @ file:///tmp/build/80754af9/pyrsistent_1600141707582/work
+python-dateutil==2.8.1
+pytz==2020.1
+PyWavelets==1.1.1
+PyYAML==5.3.1
+pyzmq==19.0.2
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1600870028330/work
+QtPy==1.9.0
+requests==2.24.0
+scikit-image==0.16.2
+scipy==1.5.2
+seaborn==0.11.0
+Send2Trash==1.5.0
+Shapely==1.7.1
+six==1.15.0
+smmap==3.0.4
+snowballstemmer==2.0.0
+Sphinx==3.2.1
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==1.0.3
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.4
+sqlparse==0.4.1
+tensorboard==1.14.0
 tensorflow==1.14.0
-keras==2.0.8
-opencv-contrib-python
-h5py
-imgaug
-gunicorn
-django
-IPython[all]
+tensorflow-estimator==1.14.0
+termcolor==1.1.0
+terminado==0.9.1
+testpath==0.4.4
+tifffile==2020.10.1
+toml==0.10.2
+toolz==0.11.1
+tornado==6.0.4
+traitlets @ file:///tmp/build/80754af9/traitlets_1600712679583/work
+tzlocal==2.1
+urllib3==1.25.10
+validators==0.18.2
+watchdog==1.0.2
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension==3.5.1
+wrapt==1.12.1
+zipp @ file:///tmp/build/80754af9/zipp_1602002379921/work
