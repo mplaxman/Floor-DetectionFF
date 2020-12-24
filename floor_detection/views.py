@@ -114,7 +114,7 @@ def predictImage(request):
 	    #else:
 	    	#splash = gray.astype(np.uint8)
 	    #return splash
-	    floor = cv2.imread("./media/floor_img/37021.jpg")
+	    floor = cv2.imread("./media/floor_img/joe-cox-xfc43saqKPQ-unsplash.jpg")
 	    floor = cv2.resize(floor, image.shape[1::-1])
 	    floor_image = cv2.cvtColor(floor, cv2.COLOR_BGR2RGB)
 	 
