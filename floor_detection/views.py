@@ -23,8 +23,11 @@ from keras import backend as K
 # Root directory of the project
 ROOT_DIR = os.path.abspath("/app/")
 
-sys.path.append("/app/Floor_Mask_RCNN/")
-sys.path.append("/app/Floor_Mask_RCNN/mrcnn/")
+sys.path.append("/Floor_Mask_RCNN/")
+sys.path.append("/Floor_Mask_RCNN/mrcnn/")
+#sys.path.append("/app/Floor_Mask_RCNN/")
+#sys.path.append("/app/Floor_Mask_RCNN/mrcnn/")
+
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
